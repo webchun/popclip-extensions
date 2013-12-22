@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>Alexa Siteinfo</string>
+	<key>Extension Identifier</key>
+	<string>com.webchun.alexa-siteinfo</string>
+	<key>Extension Description</key>
+	<string>Check Alexa Siteinfo with the selected url text.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Requirements</key>
+			<array>
+				<string>httpurl</string>
+			</array>
+			<key>URL</key>
+			<string>http://www.alexa.com/siteinfo/{popclip text}</string>
+			<key>Image File</key>
+			<string>AlexaIcon.png</string>
+			<key>Title</key>
+			<string>Alexa Siteinfo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
