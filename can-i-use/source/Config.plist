@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>Can I Use</string>
+	<key>Extension Identifier</key>
+	<string>com.webchun.alexa-siteinfo</string>
+	<key>Extension Description</key>
+	<string>Check CSS3 and HTML5 compatibility in browsers. Supporting popular code editor app, such as </string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Required Apps</key>
+			<array>
+				<string>com.sublimetext.2</string>
+				<string>com.sublimetext.3</string>
+				<string>com.macromates.textmate</string>
+				<string>com.macrabbit.Espresso</string>
+				<string>com.panic.Coda</string>
+			</array>
+			<key>URL</key>
+			<string>http://caniuse.com/{popclip text}</string>
+			<key>Image File</key>
+			<string>CanIUseIcon.png</string>
+			<key>Title</key>
+			<string>Can I Use</string>
+		</dict>
+	</array>
+</dict>
+</plist>
