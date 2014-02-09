@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>WhoIs</string>
+	<key>Extension Identifier</key>
+	<string>com.webchun.whois</string>
+	<key>Extension Description</key>
+	<string>Check whois via whois.sc</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Requirements</key>
+			<array>
+				<string>httpurl</string>
+			</array>
+			<key>URL</key>
+			<string>http://www.whois.sc/{popclip text}</string>
+			<key>Image File</key>
+			<string>WhoIsIcon.png</string>
+			<key>Title</key>
+			<string>WhoIs</string>
+		</dict>
+	</array>
+</dict>
+</plist>
